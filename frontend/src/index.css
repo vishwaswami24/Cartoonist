@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
+  color: #122033;
+  background:
+    linear-gradient(130deg, rgba(44, 76, 255, 0.12) 0 18%, transparent 18% 100%),
+    radial-gradient(circle at top right, rgba(244, 180, 0, 0.24), transparent 26%),
+    linear-gradient(180deg, #f3efe7 0%, #ebe7dc 100%);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
