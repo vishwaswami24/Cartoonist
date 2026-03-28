@@ -1,0 +1,52 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Local tooling
+.qoder/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.venv/
+venv/
+env/
+ENV/
+cartoonist_env/
+
+# PyTorch and model caches
+model_cache/
+backend/model_cache/
+checkpoints/
+outputs/
+
+# Local datasets and generated assets
+datasets/
+examples/generated/
+
+# Runtime logs
+*.log
+*.err
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Environment files
+.env
+.env.*
+
+# Build artifacts
+build/
+dist/
